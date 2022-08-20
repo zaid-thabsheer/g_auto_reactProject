@@ -1,0 +1,68 @@
+
+.box{
+    max-width: 400px;
+   
+    justify-content: center;
+    
+    margin: auto;
+   border-radius: 5px;
+   margin-top: 5%;
+  border-radius: 20px;
+  padding: 80px 20px;
+  border-top: 5px solid #230f92;
+  border-bottom: 5px solid #130661; 
+   box-shadow: 2px 8px 10px rgb(231, 231, 231);
+   &:hover{
+    box-shadow: 20px 20px 20px rgb(239, 239, 239);
+   }
+   p{
+    color: red;
+    font-size: 15px;
+   
+   }
+   h2{
+    padding: 20px;
+    font-weight: 600;
+    font-size: 35px;
+    color:#130661;
+    text-align: center;
+   }
+ .btn{
+    background-color:#130661;
+    border: none;
+    padding: 5px 30px;
+
+    font-size: 18px;
+    border-radius: 20px;
+    color: white;
+    margin: 30px  120px ;
+    cursor: pointer;
+    &:hover{
+        background-color: rgb(92, 92, 92);
+    }
+    
+ }
+ .sign-up{
+    
+    border: none;
+    margin-left: 195px;
+    margin-top: 50px;
+font-size: 14px;
+a{
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+
+   
+ }
+ .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+    height: 0.4375em;
+    padding: 20px 60px 25px 25px;
+   
+    
+ }
+}
+
